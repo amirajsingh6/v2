@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <style>
+        body {
+            background-image: url('WhatsApp Image 2024-02-15 at 6.16.16 PM.jpeg');
+            background-size: cover; /* Adjusts the background image size to cover the entire viewport */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            /* Additional background properties can be added here */
+        }
+    </style>
+</head>
+<body>
+    <h1>Valentine's Day</h1>
+    <pre style="font-family: monospace; display: none;" id="heart">
+      **    **  
+     **** **** 
+    ************
+     ********** 
+      ********  
+       ******   
+        ****    
+         **     
+    </pre>
+    <pre style="font-family: monospace; display: none;" id="broken-heart">
+      **       **  
+     ****     **** 
+    ******   *****
+     ******   **** 
+       ******   ***  
+        ****   **   
+         **  **    
+          ****     
+           **      
+    </pre>
+    <p>Happy Valentine's Day 💖</p>
+    <p>Will you be my Valentine? (Yes/No)</p>
+    <img src="./kanye.jpeg" alt="Valentine's Day" style="width: 300px;">
+    <button onclick="askValentine()">Click here to answer</button>
+    <script>
+        function askValentine() {
+            var answer = prompt("Will you be my Valentine? (Yes/No)").toLowerCase();
+            if (answer === "yes") {
+                alert("Shiii, what do I say now? but here's a heart for u ");
+                document.getElementById('heart').style.display = 'block';
+            } else if (answer === "no") {
+                alert("💔 damn");
+                document.getElementById('broken-heart').style.display = 'block';
+            } else {
+                alert("Need spelling classes frfr, only 'yes' and 'no'.");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Test Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a test page to demonstrate HTML content.</p>
+    <p>You can add more content here and see it live updating in your browser using the Live Server extension.</p>
+</body>
+</html>

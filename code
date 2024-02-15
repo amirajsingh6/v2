@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Message</title>
+</head>
+<body>
+    <h1>Valentine's Day Message</h1>
+    <p>Hey there! I have a special message for you:</p>
+    <p>Jolene(BBG), Happy Valentine's Day! 💖</p>
+    <p>Will you be my Valentine? (Yes/No)</p>
+    <button onclick="askValentine()">Click here to answer</button>
+    <script>
+        function askValentine() {
+            var answer = prompt("Will you be my Valentine? (Yes/No)").toLowerCase();
+            if (answer === "yes") {
+                alert("Shiii, what do I say now? Heart for u");
+            } else if (answer === "no") {
+                alert("💔 damn");
+            } else {
+                alert("Need spelling classes frfr, only 'yes' and 'no'.");
+            }
+        }
+    </script>
+</body>
+</html>
